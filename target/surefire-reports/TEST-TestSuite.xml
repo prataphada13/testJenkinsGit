@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.852" tests="23" errors="0" skipped="22" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/apple/eclipse-workspace/cloudplatform/target/test-classes:/Users/apple/eclipse-workspace/cloudplatform/target/classes:/Users/apple/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/apple/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/apple/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/apple/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/apple/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/apple/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/apple/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/apple/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/apple/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/apple/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/apple/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/apple/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/apple/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/apple/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/apple/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/apple/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/apple/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/apple/eclipse-workspace/cloudplatform/target/surefire/surefirebooter6032276856420321691.jar /Users/apple/eclipse-workspace/cloudplatform/target/surefire 2020-04-04T20-13-03_015-jvmRun1 surefire1795405221958194502tmp surefire_08565920203578810900tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/apple/eclipse-workspace/cloudplatform/target/test-classes:/Users/apple/eclipse-workspace/cloudplatform/target/classes:/Users/apple/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/apple/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/apple/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/apple/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/apple/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/apple/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/apple/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/apple/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/apple/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/apple/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/apple/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/apple/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/apple/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/apple/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/apple/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/apple/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/apple/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/apple"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/apple/eclipse-workspace/cloudplatform"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/apple/eclipse-workspace/cloudplatform/target/surefire/surefirebooter6032276856420321691.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.5+10-LTS"/>
+    <property name="user.name" value="apple"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/apple/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/74/dlv38v0s1psbn9lwztgfzy380000gn/T/"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="/Users/apple/eclipse-workspace/cloudplatform"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="initDriver" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0.487">
+    <failure message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
+
+Parameter 'Browser' is required by BeforeSuite on method initDriver but has not been marked @Optional or defined
+in /Users/apple/eclipse-workspace/cloudplatform/testng.xml
+]]></failure>
+  </testcase>
+  <testcase name="testCaseDetails" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCaseDetails" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginToPortal" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginToPortal" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0">
+    <skipped message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml"/>
+  </testcase>
+  <testcase name="verifyClientDetails" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyClientDetails" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0">
+    <skipped message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml"/>
+  </testcase>
+  <testcase name="endSuite" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="endSuite" classname="com.empirix.cloudplatform.testcases.TC_Login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCaseDetails" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCaseDetails" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="switchToJapanease" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="switchToJapanease" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml"/>
+  </testcase>
+  <testcase name="verifyDashboard" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyDashboard" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml"/>
+  </testcase>
+  <testcase name="verifyAlerts" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyAlerts" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml"/>
+  </testcase>
+  <testcase name="verifyTests" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyTests" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml"/>
+  </testcase>
+  <testcase name="verifyVariables" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyVariables" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml"/>
+  </testcase>
+  <testcase name="verifyNotifications" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyNotifications" classname="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" time="0">
+    <skipped message="&#10;Parameter &apos;Browser&apos; is required by BeforeSuite on method initDriver but has not been marked @Optional or defined&#10;in /Users/apple/eclipse-workspace/cloudplatform/testng.xml"/>
+  </testcase>
+</testsuite>

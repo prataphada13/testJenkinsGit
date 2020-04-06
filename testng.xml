@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EmpirixCloudPlatform" parallel="tests">
+
+<parameter name="Browser" value="chrome" />
+	<test thread-count="1" name="Test - Cloud platform - on chrome" preserve-order="true">
+		
+		<classes>
+			<class name="com.empirix.cloudplatform.testcases.TC_Login" />
+			<class name="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" />
+		</classes>
+	</test>
+	
+	
+	<parameter name="Browser" value="firefox" />
+	<test thread-count="1" name="Test - Cloud platform - on firefox" preserve-order="true">
+		
+		<classes>
+			<class name="com.empirix.cloudplatform.testcases.TC_Login" />
+			<class name="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" />
+		</classes>
+	</test>
+
+	
+	</suite> 

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-EmpirixCloudPlatform" class="navigator-link">
+              <span class="suite-name border-failed">EmpirixCloudPlatform</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-EmpirixCloudPlatform" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-EmpirixCloudPlatform" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-EmpirixCloudPlatform" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-EmpirixCloudPlatform" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-EmpirixCloudPlatform" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-EmpirixCloudPlatform" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-EmpirixCloudPlatform" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 6 failed,  2 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-EmpirixCloudPlatform" class="hide-methods failed suite-EmpirixCloudPlatform"> (hide)</a> <!-- hide-methods failed suite-EmpirixCloudPlatform -->
+                      <a href="#" panel-name="suite-EmpirixCloudPlatform" class="show-methods failed suite-EmpirixCloudPlatform"> (show)</a> <!-- show-methods failed suite-EmpirixCloudPlatform -->
+                    </span>
+                    <div class="method-list-content failed suite-EmpirixCloudPlatform">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmpirixCloudPlatform" title="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" class="method navigator-link" hash-for-method="switchToJapanease">switchToJapanease</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmpirixCloudPlatform" title="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" class="method navigator-link" hash-for-method="verifyAlerts">verifyAlerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmpirixCloudPlatform" title="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" class="method navigator-link" hash-for-method="verifyDashboard">verifyDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmpirixCloudPlatform" title="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" class="method navigator-link" hash-for-method="verifyNotifications">verifyNotifications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmpirixCloudPlatform" title="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" class="method navigator-link" hash-for-method="verifyTests">verifyTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmpirixCloudPlatform" title="com.empirix.cloudplatform.testcases.TC_SwitchLanguage" class="method navigator-link" hash-for-method="verifyVariables">verifyVariables</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-EmpirixCloudPlatform -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-EmpirixCloudPlatform" class="hide-methods skipped suite-EmpirixCloudPlatform"> (hide)</a> <!-- hide-methods skipped suite-EmpirixCloudPlatform -->
+                      <a href="#" panel-name="suite-EmpirixCloudPlatform" class="show-methods skipped suite-EmpirixCloudPlatform"> (show)</a> <!-- show-methods skipped suite-EmpirixCloudPlatform -->
+                    </span>
+                    <div class="method-list-content skipped suite-EmpirixCloudPlatform">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmpirixCloudPlatform" title="com.empirix.cloudplatform.testcases.TC_Login" class="method navigator-link" hash-for-method="loginToPortal">loginToPortal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmpirixCloudPlatform" title="com.empirix.cloudplatform.testcases.TC_Login" class="method navigator-link" hash-for-method="verifyClientDetails">verifyClientDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-EmpirixCloudPlatform -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EmpirixCloudPlatform" class="panel EmpirixCloudPlatform">
+          <div class="suite-EmpirixCloudPlatform-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.empirix.cloudplatform.testcases.TC_SwitchLanguage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchToJapanease">
+                  </a> <!-- switchToJapanease -->
+                  <span class="method-name">switchToJapanease</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.empirix.cloudplatform.testcases.TC_SwitchLanguage.switchToJapanease(TC_SwitchLanguage.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlerts">
+                  </a> <!-- verifyAlerts -->
+                  <span class="method-name">verifyAlerts</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.empirix.cloudplatform.testcases.TC_SwitchLanguage.verifyAlerts(TC_SwitchLanguage.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashboard">
+                  </a> <!-- verifyDashboard -->
+                  <span class="method-name">verifyDashboard</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.empirix.cloudplatform.testcases.TC_SwitchLanguage.verifyDashboard(TC_SwitchLanguage.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNotifications">
+                  </a> <!-- verifyNotifications -->
+                  <span class="method-name">verifyNotifications</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.empirix.cloudplatform.testcases.TC_SwitchLanguage.verifyNotifications(TC_SwitchLanguage.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTests">
+                  </a> <!-- verifyTests -->
+                  <span class="method-name">verifyTests</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.empirix.cloudplatform.testcases.TC_SwitchLanguage.verifyTests(TC_SwitchLanguage.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVariables">
+                  </a> <!-- verifyVariables -->
+                  <span class="method-name">verifyVariables</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.empirix.cloudplatform.testcases.TC_SwitchLanguage.verifyVariables(TC_SwitchLanguage.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmpirixCloudPlatform-class-failed -->
+          <div class="suite-EmpirixCloudPlatform-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.empirix.cloudplatform.testcases.TC_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToPortal">
+                  </a> <!-- loginToPortal -->
+                  <span class="method-name">loginToPortal</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeClass annotated testCaseDetails.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClientDetails">
+                  </a> <!-- verifyClientDetails -->
+                  <span class="method-name">verifyClientDetails</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeClass annotated testCaseDetails.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmpirixCloudPlatform-class-skipped -->
+        </div> <!-- panel EmpirixCloudPlatform -->
+        <div panel-name="test-xml-EmpirixCloudPlatform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/apple/eclipse-workspace/cloudplatform/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;EmpirixCloudPlatform&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Test - Cloud platform - on chrome&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.empirix.cloudplatform.testcases.TC_Login&quot;/&gt;
+      &lt;class name=&quot;com.empirix.cloudplatform.testcases.TC_SwitchLanguage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test - Cloud platform - on chrome --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Test - Cloud platform - on firefox&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.empirix.cloudplatform.testcases.TC_Login&quot;/&gt;
+      &lt;class name=&quot;com.empirix.cloudplatform.testcases.TC_SwitchLanguage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test - Cloud platform - on firefox --&gt;
+&lt;/suite&gt; &lt;!-- EmpirixCloudPlatform --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EmpirixCloudPlatform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EmpirixCloudPlatform</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test - Cloud platform - on chrome (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test - Cloud platform - on firefox (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EmpirixCloudPlatform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EmpirixCloudPlatform</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EmpirixCloudPlatform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EmpirixCloudPlatform</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EmpirixCloudPlatform');
+function tableData_EmpirixCloudPlatform() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'switchToJapanease')
+data.setCell(0, 2, 'com.empirix.cloudplatform.testcases.TC_SwitchLanguage')
+data.setCell(0, 3, 10);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyDashboard')
+data.setCell(1, 2, 'com.empirix.cloudplatform.testcases.TC_SwitchLanguage')
+data.setCell(1, 3, 6);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAlerts')
+data.setCell(2, 2, 'com.empirix.cloudplatform.testcases.TC_SwitchLanguage')
+data.setCell(2, 3, 6);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyTests')
+data.setCell(3, 2, 'com.empirix.cloudplatform.testcases.TC_SwitchLanguage')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyVariables')
+data.setCell(4, 2, 'com.empirix.cloudplatform.testcases.TC_SwitchLanguage')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyNotifications')
+data.setCell(5, 2, 'com.empirix.cloudplatform.testcases.TC_SwitchLanguage')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginToPortal')
+data.setCell(6, 2, 'com.empirix.cloudplatform.testcases.TC_Login')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyClientDetails')
+data.setCell(7, 2, 'com.empirix.cloudplatform.testcases.TC_Login')
+data.setCell(7, 3, 0);
+window.suiteTableData['EmpirixCloudPlatform']= { tableData: data, tableDiv: 'times-div-EmpirixCloudPlatform'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 162 ms</span>
+              <div id="times-div-EmpirixCloudPlatform">
+              </div> <!-- times-div-EmpirixCloudPlatform -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EmpirixCloudPlatform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EmpirixCloudPlatform</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EmpirixCloudPlatform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EmpirixCloudPlatform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.empirix.cloudplatform.testcases.TC_Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginToPortal</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginToPortal</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.empirix.cloudplatform.testcases.TC_SwitchLanguage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testCaseDetails</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">testCaseDetails</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">switchToJapanease</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">switchToJapanease</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.empirix.cloudplatform.testcases.TC_Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyClientDetails</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyClientDetails</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.empirix.cloudplatform.testcases.TC_SwitchLanguage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDashboard</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAlerts</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyTests</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDashboard</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyVariables</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyNotifications</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAlerts</span>
+                <span class="method-start">68 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyTests</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyVariables</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyNotifications</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

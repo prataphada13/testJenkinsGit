@@ -1,0 +1,4 @@
+com/empirix/cloudplatform/core/Core.class
+com/empirix/cloudplatform/testcases/TC_Login.class
+com/empirix/cloudplatform/testcases/TC_SwitchLanguage.class
+com/empirix/cloudplatform/utility/TestUtil.class
